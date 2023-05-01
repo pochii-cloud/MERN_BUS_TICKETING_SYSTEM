@@ -1,0 +1,94 @@
+.ticketbox{
+    border: rgba(0, 0, 0, 0.17) solid;
+    width: fit-content;
+    padding: 20px;
+    
+}
+.ticketbox h1{
+    padding: 10px;
+    
+}
+
+ .tkt{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ticketbox input{
+    border: rgba(0, 0, 0, 0.185) solid;
+    border-radius: 5px;
+
+}
+
+ .travelcard{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.travelcard p{
+    width: 500px;
+    padding: 10px;
+    
+}
+
+.travelcard h1{
+    width: 500px;
+    
+    text-align: justify;
+}
+
+.travelcard h1 span{
+    color: orange;
+}
+
+.card2{
+    margin-top: 30px;
+}
+.card3{
+    margin-top: 60px;
+} 
+
+
+.businfo{
+      display: flex;
+      justify-content: space-between;
+      
+}
+
+.businformation{
+    margin-left:30%;
+}
+
+.filterin{
+   margin-left: 5%;
+}
+
+.partners{
+     padding: 10px;
+}
+
+
+
+.partnersh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners h1{
+    color: orange;
+    font-family: 'Brush Script MT', cursive !important;
+}
+
+.searchbtn{
+   margin-top: 35px;
+}
+
+.partnershimg{
+    display: flex;
+    justify-content: center;
+}

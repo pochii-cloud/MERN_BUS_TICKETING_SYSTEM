@@ -1,0 +1,69 @@
+.bus-container {
+    width: 300px !important;
+    border: 2px solid gray;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .seat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+  }
+  
+  .selected-seat{
+      background-color: green;
+      color: white;
+  }
+  
+  .booked-seat{
+      background-color: gray;
+      color: white;
+      pointer-events: none !important;
+      cursor: disabled !important;
+  }
+
+
+
+.homecard {
+  flex: 1 0 calc(33.333% - 10px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .homecard {
+    flex: 1 0 calc(50% - 10px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .homecard {
+    flex: 1 0 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+
+.cardtitle{
+  background-color: rgb(244, 165, 86);
+  padding: 10px;
+}
+
+.cardtitle h1{
+  color: black !important;
+}
+
+.booknow{
+  background-color: rgb(244, 165, 86);
+  color: aliceblue;
+}
+
+.booknow:hover{
+  background-color: green;
+}

@@ -1,0 +1,76 @@
+
+
+
+
+.container {
+    height: '100vh';
+    display: 'flex';
+    justify-Content: 'center';
+    align-items: 'center';
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.logo img{
+    width: 150px;
+    margin-left: 20px;
+}
+
+.loginbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+    /* background-color: rgb(8, 244, 126); */
+    
+    
+}
+
+
+.user-icon img{
+    width: 80px;
+}
+
+.login{
+    width: 400px;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.377) 0px 10px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.login-btn{
+    background-color: aquamarine;
+}
+
+.link1{
+    color: red;
+
+}
+
+.link1:hover{
+    color:navy;
+}
+
+.googleBTN{
+    padding: 2px;
+    width: 100%;
+    border: 0px none;
+    background-color: #797389;
+    border-radius: 50px;
+    border-radius: .5rem;
+    color:white;
+    transition: all 0.4s;
+}
+
+.googleBTN:hover{
+    transition: all 0.4s;
+    background-color: white;
+    color: black;
+}

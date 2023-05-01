@@ -1,0 +1,97 @@
+.footer {
+  background-color: #fcfafa;
+  color: #000080;
+  font-family: Arial, sans-serif;
+  padding: 50px 50px 50px;
+  bottom: 0;
+  width: 100%;
+}
+  
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    flex-basis: 20%;
+  }
+  
+  .box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .box a {
+    display: block;
+    margin-bottom: 10px;
+    color: #38d39f;
+    text-decoration: none;
+    transition: 0.3s ease;
+    align-items: center;
+  }
+  
+  .box a:hover {
+    color: #000080;
+  }
+  
+  .box p {
+    margin-bottom: 10px;
+    color: #38d39f;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box p:hover {
+    color: #000080;
+  }
+  
+  .box i {
+    margin-right: 10px;
+  }
+  
+  .credit {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .credit a {
+    color: #38d39f;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  .credit a:hover {
+    color: #38d39f;
+  }
+  
+  /* Style the font-awesome icons in the footer */
+  .fas, .fab {
+    margin-right: 10px;
+    color: #38d39f;
+  }
+  
+  
+  .footer .credit{
+    text-align: center;
+    font-size: 1.5rem;
+    color:#38d39f;
+
+  }
+
+  .email {
+    font-size: 1.2rem;
+    color: #38d39f;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .email:hover{
+    color: #000080;
+  }
+  
